@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Angry', 'Disgust', 'Fear', 'Happy', 'Natural', 'Sad', 'Surprised']
+
+roboflow:
+  workspace: skripsi2-1r20w
+  project: data-primer-2
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/skripsi2-1r20w/data-primer-2/dataset/9
